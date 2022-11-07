@@ -1,0 +1,3 @@
+sudo adduser newuser
+sudo usermod -aG sudo newuser
+wget https://raw.githubusercontent.com/QuocNinhXR/test1/main/Install.sh
