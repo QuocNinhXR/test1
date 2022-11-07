@@ -1,4 +1,3 @@
-#!/bin/sh
 echo "Upgrade And Update.."
 sudo apt upgrade -y
 sudo apt update -y
@@ -8,5 +7,5 @@ echo "Setup Xrdp..."
 echo xfce4-session > ~/.xsession
 sudo service xrdp restart
 wget https://raw.githubusercontent.com/QuocNinhXR/test1/main/startxrdp.sh
-echo "Done✓"
+echo "Done"
 rm install.sh
