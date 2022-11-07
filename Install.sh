@@ -9,4 +9,4 @@ echo xfce4-session > ~/.xsession
 sudo service xrdp restart
 wget https://raw.githubusercontent.com/QuocNinhXR/test1/main/startxrdp.sh
 echo "Done✓"
-exit 0
+rm install.sh
