@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "Starting..."
-sudo service xrdp restart
+service xrdp restart
 echo "Done!"
